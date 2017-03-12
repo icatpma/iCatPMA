@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 2
+  domain: mybluemix.net
+  name: iCatPMA
+  host: iCatPMA
+  disk_quota: 1024M
+  services:
+  - iCatPMA-cloudantNoSQLDB
+  - availability-monitoring-auto
